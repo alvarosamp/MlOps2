@@ -26,4 +26,16 @@ PRED_FEATURES = ['no_of_dependents', 'education', 'self_employed', 'income_annum
 #Variaveis numericas
 NUM_FEATURES = ['ApplicantIncome', 'LoanAmount', 'Loan_Amount_Term']
 #VARIAVEIS CATEGORICAS
-CAT_FEATURES = ['Gender', 'Married', 'Education', 'Self_Employed', 'Property_Area']
+CAT_FEATURES = ['education', 'self_employed']
+# Dict para transformacao
+FEATURES_TO_ENCODE = {
+    'education': ['Graduate'],
+    'self_employed': ['Yes']
+}
+
+NEW_FEATURE_ADD = 'total_assets_value'
+FEATURE_TO_ADD = ['residential_assets_value','commercial_assets_value', 'luxury_assets_value','bank_asset_value' ]
+
+DROP_FEATURES = ['residential_assets_value','commercial_assets_value', 'luxury_assets_value','bank_asset_value' ]
+
+LOG_FEATURES = ['income_annum','loan_amount','total_assets_value'] # taking log of numerical columns
