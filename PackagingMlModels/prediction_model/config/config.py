@@ -1,8 +1,7 @@
 import pathlib
 import os 
-import prediction_model
 
-PACKAGE_ROOT = pathlib.Path(prediction_model.__file__).resolve().parent.parent
+PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent.parent
 # Configurações do projeto
 #Entrando com o caminho do dataset
 DATAPATH = os.path.join(PACKAGE_ROOT,"datasets") #Entrando com o caminho e as pasta do dataset 
@@ -11,6 +10,7 @@ FILE_NAME = 'loan_approval_dataset.csv'
 TEST_FILE = 'test_data.csv'
 #Nome do modelo a ser criado
 MODEL_NAME = 'classification.pkl'
+PIPELINE_FILE = 'classification.pkl'
 #Indicando diretorio de salvamento do modelo
 SAVE_MODEL_PATH = os.path.join(PACKAGE_ROOT,'trained_models')
 #Indicando o target (variavel alvo)
