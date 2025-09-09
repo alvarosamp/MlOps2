@@ -12,10 +12,10 @@ import numpy as np
 
 classification_pipeline = Pipeline(
     [
-        ('DomainProcessing',pp.DomainProcessing(variable_to_add = config.FEATURE_TO_ADD)),
+        ('DomainProcessing',pp.DomainProcessing(variables_to_add = config.FEATURE_TO_ADD)),
         ('DropFeatures', pp.DropColumns(variables_to_drop=config.DROP_FEATURES)),
         ('LabelEncoder',pp.CustomLabelEncoder(variables=config.FEATURES_TO_ENCODE)),
-        ('LogTransform',pp.LogTransforms(variables=config.LOG_FEATURES)),
+        ('LogTransform',pp.LogTransformrs(variables=config.LOG_FEATURES)),
         ('LogisticClassifier',LogisticRegression(random_state=42))
     ]
 

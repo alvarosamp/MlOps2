@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/vish8/OneDrive/Desktop/Cursos/MLopsBootcamp/MlOps2/mlruns/990001061849481718/c35d7f9d8f6b45c9b1f220c6c871397a/artifacts
+end_time: 1757426084541
+entry_point_name: ''
+experiment_id: '990001061849481718'
+lifecycle_stage: active
+run_id: c35d7f9d8f6b45c9b1f220c6c871397a
+run_name: blushing-trout-302
+run_uuid: c35d7f9d8f6b45c9b1f220c6c871397a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757426084163
+status: 3
+tags: []
+user_id: vish8

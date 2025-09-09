@@ -13,7 +13,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from pathlib import Path
 import sys
-from prediction_model.config import config
+from PackagingMlModels.prediction_model.config import config
 
 PACKAGE_ROOT = Path(__file__).resolve().parent.parent
 print(PACKAGE_ROOT)
@@ -27,15 +27,15 @@ def load_dataset(file_name):
     return _data[config.FEATURES]
 
 #Separando o dataset em treino e teste
-def separete_data(data):
+def separate_data(data):
     X = data.drop(config.TARGET, axis = 1)
     y = data[config.TARGET]
     X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2, random_state=42)
     return X_train, X_test, y_train, y_test
 
 #Serialization
-def save_pipeline(pipeline_to_save):
-    save_path = os.path.join(config.SAVE_MODEL_PATH, pipeline_to_save)
+def save_pipeline(pipeline_to_save, file_name):
+    save_path = os.path.join(config.SAVE_MODEL_PATH, file_name)
     print(save_path)
     joblib.dump(pipeline_to_save, save_path)
     print(f'Pipeline salvo em: {save_path}')
@@ -45,4 +45,4 @@ def load_pipeline(pipeline_to_load):
     save_path = os.path.join(config.SAVE_MODEL_PATH, pipeline_to_load)
     model_loaded = joblib.load(save_path)
     print('Model carregado com sucesso')
-    return joblib.load(save_path)
+    return model_loaded

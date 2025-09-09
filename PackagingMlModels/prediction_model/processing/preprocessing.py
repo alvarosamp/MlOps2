@@ -20,15 +20,15 @@ class DropColumns(BaseEstimator, TransformerMixin):
     def fit(self, X, y = None):
         return self
     
-    def fit_transform(self, X, y = None, **fit_params):
-        X = X.drop(columns = self.variables_to_drop, axis = 1)
-        return X
+
+    def transform(self, X):
+        return X.drop(columns=self.variables_to_drop, axis=1)
     
 #Domain Processing
 class DomainProcessing(BaseEstimator, TransformerMixin):
     """Class to perform domain processing"""
     def __init__(self, variables_to_add = None):
-        self.new_column = config.NEW_FEATURE_ADDED
+        self.new_column = config.NEW_FEATURE_ADD
         self.variable_to_add = variables_to_add
 
     def fit(self, X, y = None):
