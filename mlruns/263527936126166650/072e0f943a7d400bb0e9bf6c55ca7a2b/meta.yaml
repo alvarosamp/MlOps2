@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/263527936126166650/072e0f943a7d400bb0e9bf6c55ca7a2b/artifacts
+end_time: 1772374592129
+entry_point_name: ''
+experiment_id: '263527936126166650'
+lifecycle_stage: active
+run_id: 072e0f943a7d400bb0e9bf6c55ca7a2b
+run_name: bright-smelt-18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772374584179
+status: 3
+tags: []
+user_id: vish8
