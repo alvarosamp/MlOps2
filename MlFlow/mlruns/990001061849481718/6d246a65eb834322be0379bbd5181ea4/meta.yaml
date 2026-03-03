@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/vish8/OneDrive/Desktop/Cursos/MLopsBootcamp/MlOps2/mlruns/990001061849481718/6d246a65eb834322be0379bbd5181ea4/artifacts
+end_time: 1757427237155
+entry_point_name: ''
+experiment_id: '990001061849481718'
+lifecycle_stage: active
+run_id: 6d246a65eb834322be0379bbd5181ea4
+run_name: crawling-whale-389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757427237089
+status: 4
+tags: []
+user_id: alvaro.careli

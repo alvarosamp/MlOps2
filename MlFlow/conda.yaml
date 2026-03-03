@@ -1,0 +1,12 @@
+name : Loan_prediction
+channels:
+  - defaults
+  
+dependencies:
+mlflow
+fastapi
+uvicorn
+pandas
+scikit-learn
+numpy
+joblib

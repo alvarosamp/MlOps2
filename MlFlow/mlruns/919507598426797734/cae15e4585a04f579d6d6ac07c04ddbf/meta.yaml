@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alvaro.careli/Documents/DeployMLModels/Mlops/Bootcamp_MlOps/MlOps2/MlFlow/mlruns/919507598426797734/cae15e4585a04f579d6d6ac07c04ddbf/artifacts
+end_time: 1757431046806
+entry_point_name: ''
+experiment_id: '919507598426797734'
+lifecycle_stage: active
+run_id: cae15e4585a04f579d6d6ac07c04ddbf
+run_name: likeable-sheep-712
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757431046734
+status: 4
+tags: []
+user_id: alvaro.careli

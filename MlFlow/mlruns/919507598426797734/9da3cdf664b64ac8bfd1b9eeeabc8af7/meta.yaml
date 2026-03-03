@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alvaro.careli/Documents/DeployMLModels/Mlops/Bootcamp_MlOps/MlOps2/MlFlow/mlruns/919507598426797734/9da3cdf664b64ac8bfd1b9eeeabc8af7/artifacts
+end_time: 1757430364515
+entry_point_name: ''
+experiment_id: '919507598426797734'
+lifecycle_stage: active
+run_id: 9da3cdf664b64ac8bfd1b9eeeabc8af7
+run_name: smiling-shoat-595
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757430364458
+status: 4
+tags: []
+user_id: alvaro.careli

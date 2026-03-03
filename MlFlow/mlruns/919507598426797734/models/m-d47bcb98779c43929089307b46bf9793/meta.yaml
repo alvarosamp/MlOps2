@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/alvaro.careli/Documents/DeployMLModels/Mlops/Bootcamp_MlOps/MlOps2/MlFlow/mlruns/919507598426797734/models/m-d47bcb98779c43929089307b46bf9793/artifacts
+creation_timestamp: 1757431726646
+experiment_id: '919507598426797734'
+last_updated_timestamp: 1757431734923
+model_id: m-d47bcb98779c43929089307b46bf9793
+model_type: null
+name: model
+source_run_id: 014a6e5560f347659a712721f8584709
+status: 2
+status_message: null

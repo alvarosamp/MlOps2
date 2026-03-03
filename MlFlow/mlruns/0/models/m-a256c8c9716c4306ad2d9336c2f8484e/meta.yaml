@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/vish8/OneDrive/Desktop/Cursos/MLopsBootcamp/MlOps2/mlruns/0/models/m-a256c8c9716c4306ad2d9336c2f8484e/artifacts
+creation_timestamp: 1757439667422
+experiment_id: '0'
+last_updated_timestamp: 1757439676672
+model_id: m-a256c8c9716c4306ad2d9336c2f8484e
+model_type: ''
+name: random_forest_model
+source_run_id: ''
+status: 3
+status_message: null

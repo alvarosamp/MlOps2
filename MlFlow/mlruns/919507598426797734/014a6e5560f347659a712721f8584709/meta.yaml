@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alvaro.careli/Documents/DeployMLModels/Mlops/Bootcamp_MlOps/MlOps2/MlFlow/mlruns/919507598426797734/014a6e5560f347659a712721f8584709/artifacts
+end_time: 1757431734946
+entry_point_name: ''
+experiment_id: '919507598426797734'
+lifecycle_stage: active
+run_id: 014a6e5560f347659a712721f8584709
+run_name: delicate-shoat-220
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757431726506
+status: 3
+tags: []
+user_id: alvaro.careli

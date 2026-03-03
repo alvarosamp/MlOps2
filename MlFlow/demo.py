@@ -1,4 +1,6 @@
 import os
+mlruns_path = os.path.abspath("mlruns")
+os.environ["MLFLOW_TRACKING_URI"] = mlruns_path  # Caminho absoluto sem 'file://'
 import mlflow
 import argparse
 import time
@@ -9,6 +11,7 @@ def eval(p1, p2):
     return output_metric
 
 def main(inp1, inp2):
+    mlflow.set_tracking_uri(mlruns_path)  # Caminho absoluto sem 'file://'
     mlflow.set_experiment("Demo_Experiment")
     #with mlflow.start_run(run_name='Example Demo'):
     with mlflow.start_run():

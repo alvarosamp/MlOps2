@@ -1,0 +1,6 @@
+name : Loan_prediction
+conda_env : .venv
+
+entry_points: 
+    main:
+        command: 'python loan_prediction.py'

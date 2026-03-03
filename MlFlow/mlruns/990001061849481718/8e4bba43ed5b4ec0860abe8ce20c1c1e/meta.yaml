@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/vish8/OneDrive/Desktop/Cursos/MLopsBootcamp/MlOps2/mlruns/990001061849481718/8e4bba43ed5b4ec0860abe8ce20c1c1e/artifacts
+end_time: 1757427526237
+entry_point_name: ''
+experiment_id: '990001061849481718'
+lifecycle_stage: active
+run_id: 8e4bba43ed5b4ec0860abe8ce20c1c1e
+run_name: loud-cat-589
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757427526174
+status: 4
+tags: []
+user_id: alvaro.careli

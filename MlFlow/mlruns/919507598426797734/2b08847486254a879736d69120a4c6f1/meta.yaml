@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alvaro.careli/Documents/DeployMLModels/Mlops/Bootcamp_MlOps/MlOps2/MlFlow/mlruns/919507598426797734/2b08847486254a879736d69120a4c6f1/artifacts
+end_time: 1757431172972
+entry_point_name: ''
+experiment_id: '919507598426797734'
+lifecycle_stage: active
+run_id: 2b08847486254a879736d69120a4c6f1
+run_name: intrigued-toad-457
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757431160506
+status: 3
+tags: []
+user_id: alvaro.careli
