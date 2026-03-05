@@ -1,2 +1,4 @@
 alvaroscareli_db_user
 zUIwsQQfswMaZeFc
+
+mongodb+srv://alvaroscareli_db_user:<zUIwsQQfswMaZeFc>@cluster0.r1zabre.mongodb.net/?appName=Cluster0
