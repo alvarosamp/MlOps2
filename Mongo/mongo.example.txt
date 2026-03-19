@@ -1,0 +1,7 @@
+# Example only — do NOT put real passwords in the repo.
+
+MONGODB_USER=<your_mongodb_username>
+MONGODB_PASSWORD=<your_mongodb_password>
+
+# Atlas connection string example (replace USER/PASS; remove < >):
+mongodb+srv://<username>:<password>@cluster0.r1zabre.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
