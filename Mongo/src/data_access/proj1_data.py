@@ -36,7 +36,7 @@ class Proj1Data:
 
             #Convert collection data to DataFrame and preprocess
             print ('Fetching data from MongoDB collection...')
-            df = pd.DataFrame(list(collection.find()))
+            df = pd.DataFrame(list(collection.find())) #Find retorna todos os documentos da collection
             print(f' Data feteched successfully. Number of records: {len(df)}')
             if 'id' in df.columns.to_list():
                 df = df.drop(columns=['id'], axis =1) # Drop the 'id' column if it exists
