@@ -1,4 +1,4 @@
-
+Para ver o mlflow basta rodar em outro terminal. MLFLOW UI
 `mlflow.set_tracking_uri()` connects to a tracking URI. You can also set the MLFLOW_TRACKING_URI environment variable to have MLflow find a URI from there. In both cases, the URI can either be a HTTP/HTTPS URI for a remote server, a database connection string, or a local path to log data to a directory. The URI defaults to mlruns.
 
 `mlflow.get_tracking_uri()` returns the current tracking URI.
